@@ -51,9 +51,10 @@
 		FE4BAB962A62EC800066F432 /* MedicoPlus */ = {
 			isa = PBXGroup;
 			children = (
-				FE4BAB972A62EC800066F432 /* MedicoPlusApp.swift */,
-				FE4BAB992A62EC800066F432 /* ContentView.swift */,
-				FE4BAB9B2A62EC820066F432 /* Assets.xcassets */,
+				FE4BABA82A62ED6E0066F432 /* AppAPI */,
+				FE4BABA72A62ED600066F432 /* AppResources */,
+				FE4BABA62A62ED590066F432 /* AppLogic */,
+				FE4BABA52A62ED500066F432 /* AppDesign */,
 				FE4BAB9D2A62EC820066F432 /* Preview Content */,
 			);
 			path = MedicoPlus;
@@ -65,6 +66,37 @@
 				FE4BAB9E2A62EC820066F432 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE4BABA52A62ED500066F432 /* AppDesign */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BAB972A62EC800066F432 /* MedicoPlusApp.swift */,
+				FE4BAB992A62EC800066F432 /* ContentView.swift */,
+			);
+			path = AppDesign;
+			sourceTree = "<group>";
+		};
+		FE4BABA62A62ED590066F432 /* AppLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppLogic;
+			sourceTree = "<group>";
+		};
+		FE4BABA72A62ED600066F432 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BAB9B2A62EC820066F432 /* Assets.xcassets */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		FE4BABA82A62ED6E0066F432 /* AppAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +306,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
